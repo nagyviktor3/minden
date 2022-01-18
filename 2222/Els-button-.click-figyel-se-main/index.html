@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button class="gomb f">gomb</button>
+    <button class="szovegvalt f"></button>
+    <button class="meg3 f"></button>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script>
+       let color ='purple'
+        $('.gomb').click(() =>
+        console.log('igen'))
+        $('.szovegvalt').on('click',()=>
+        $('.gomb').text('szoveg'))
+        $('.meg3').on('click',()=>
+        $('.f').css('background',color))
+        
+   </script>
+</body>
+</html>

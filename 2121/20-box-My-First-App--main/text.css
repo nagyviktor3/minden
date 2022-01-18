@@ -1,0 +1,39 @@
+.q{
+    background-color: rgb(55, 85, 255);
+    max-width: 10px;
+    height: 10px;
+    gap: 10px;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 5px;
+    justify-content: center;
+    
+    /*margin-bottom: -5px;*/
+
+}
+.qwe{
+    border: 0.4px solid rgb(40, 90, 253);
+    width:149px;
+}
+#w{
+    margin-left: 7px;
+}
+.a{
+    background-color: rgb(121, 13, 172);
+    max-width: 10px;
+    height: 10px;
+    gap: 10px;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 5px;
+    justify-content: center;
+}
+.asd{
+    border: 0.4px solid rgb(40, 80, 255);
+    width:149px;
+    background-color: rgb(253, 139, 45);
+    margin-top: 3px;
+}
+#s{
+    margin-left: 7px;
+}

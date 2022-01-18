@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Listák szövegek</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1 class="q">Building things is fun</h1>
+<h2 class="e">Hello from Green Fox</h2>
+<div>
+<p1> Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede.Mauris et orci. Aenean nec lorem.In porttitor. Donec laoreet nonummy augue.Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend.Ut nonummy. Fusce aliquet pede non pede.Suspendisse dapibus lorem pellentesque magna. Integer nulla.Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien.</p1></div>
+
+<h2 class="e">Let's see a list</h2>
+<ul >
+  <li>This is</li>
+  <li>very nice</li>
+  <li>list</li>
+  <li>on the first level  <ol>
+      <li class="c",><u>but it</u></li>
+      <li class="c"><u>ean go</u></li>
+    <li class="c"><u>deeper</u></li>
+    <li class="v"><u>and notice I have roman numbering!</u></li>
+    </ol>
+  </li>
+  <li>back to normal</li>
+</ul>
+<ul id="demo" class="nev"></ul>
+<!-- partial -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+  <script>
+    let text = "";
+    const fruits = ["apple", "orange", "cherry"];
+    fruits.forEach(myFunction);
+    
+    document.getElementById("demo").innerHTML = text;
+     
+    function myFunction(item) {
+     text +=   " " + item + "<br>"; 
+    }
+    </script>cx
+</body>
+</html>

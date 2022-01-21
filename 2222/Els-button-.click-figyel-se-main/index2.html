@@ -7,31 +7,18 @@
     <title>Document</title>
 </head>
 <body>
-    <button class="gomb f">gomb</button>
-    <button class="szovegvalt f"></button>
-    <button class="meg3 f"></button>
-    <input type="text" class="input" value="blue">
-
+   
+    <input id="gombh1" type="text" value="blue">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-   <script>
+    <script>
        let color ='purple'
         $('.gomb').click(() =>
         console.log('igen'))
         $('.szovegvalt').on('click',()=>
         $('.gomb').text('szoveg'))
-        let io =0
-        $('.meg3').click(() =>
-        { if (io==0) {$('.f').css('background',$('.input').val())
-            io++
-        } })
-        
-       /* $('.meg3').on('click',()=>
-        $('.f').css('background-color',`${$('#gomb1').val()
-        */
-   </script>
+        $('.meg3').on('click',()=>
+        $('.f').css(`background`,))        
+    </script>
 
-</body>
- <script>
-
-</script>
+   </body>
 </html>
